@@ -20,3 +20,6 @@ git clone https://github.com/alyxmp4/photofolio
 * Tap **Get from VCS**
 * Enter `https://github.com/alyxmp4/photofolio` to **URL**
 * Happy coding :)
+
+> Designed by Framer AI \
+> Coded by alyxmp4
