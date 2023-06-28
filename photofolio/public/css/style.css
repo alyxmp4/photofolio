@@ -1,0 +1,228 @@
+header {
+  min-width: 100%;
+  display: flex;
+  flex: 1;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100vh !important;
+  height: fit-content !important;
+  background: linear-gradient(45deg, rgb(234, 190, 204), #FFFFFF);
+}
+
+nav a {
+  color: #1a1d20;
+  text-decoration: none;
+}
+
+.hero {
+  box-sizing: border-box;
+}
+
+.hero-text {
+  font-family: 'Gloock', serif;
+  font-size: 80px;
+  height: fit-content;
+  width: auto;
+  bottom: 6rem;
+  position: absolute;
+}
+
+.nav-logo {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table {
+  min-height: 100vh;
+  background: #121212;
+  color: #F6F6F6;
+  margin: 0;
+  justify-content: center;
+}
+
+.table h2 {
+  color: #F6F6F6;
+  background: none;
+}
+
+.intro {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+
+.intro-avatar img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.intro-avatar {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+
+.intro-text {
+  width: 50%;
+  position: relative;
+  color: rgb(131, 33, 97);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.large-stand {
+  width: 100%;
+  border: none;
+  object-fit: cover;
+  padding: 0;
+  border-radius: 40px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.table .container .mid-stand .mid-photo {
+  padding: 0;
+  border-radius: 40px;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 49%;
+  height: 49%;
+  aspect-ratio: 1/1;
+  margin: 0.25rem;
+}
+
+.table .container .mid-stand {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quote {
+  min-height: 80vh;
+  object-fit: cover;
+  text-align: center;
+  background: url("../img/banner-bottom.jpg") fixed;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.pricing {
+  min-height: 70vh;
+  background: #000000;
+  color: #F6F6F6;
+  margin: 0;
+}
+
+.pricing .container {
+  width: 70vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.tariff {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(13, 13, 13);
+  border-radius: 20px;
+  width: 32%;
+  padding: 2.5rem 2rem;
+  margin: 0.5rem;
+}
+
+.tariff .tariff-features {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact {
+  min-height: 50vh;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+footer {
+  min-height: 20vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .socials i {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+footer .socials {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 809px) {
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 2em 2em;
+  }
+
+  .intro-text {
+    width: 80%;
+  }
+
+  .intro-avatar {
+    width: 80%;
+  }
+
+  .pricing .container {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tariff {
+    width: 80%;
+  }
+}
